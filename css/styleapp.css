@@ -1,0 +1,120 @@
+body{
+  font-family: arial;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: white;
+}
+nav{
+  width:100%;
+  height:80px;
+  background-color:#630EE2;
+  line-height:89px;
+  position: fixed;
+  top: 0;
+}
+nav h1{
+  float:left;
+  margin-top: -4px;
+  color:white;
+  font-size:40px
+
+}
+nav ul{
+  float:right;
+  margin: 0;
+  margin-right: 1.9rem;
+}
+nav ul li{
+  display:inline;
+  list-style-type: none;
+  font-size:20px;
+border-right: 2px solid #bbb;
+}
+nav ul li a {
+  color:white;
+  padding:10px;
+  word-spacing:30px;
+font-size: 30px;
+text-decoration: none;
+}
+li a:hover {
+color:orange;
+}
+img{
+  width:6.45%;
+margin-left:0rem
+}
+#boxes{
+  margin-top:20px
+  border: 5px red solid;
+}
+#boxes .box1{
+  float:left;
+  margin-left:140px;
+}
+#boxes .box2 {
+  float:left;
+  margin-left:150px;
+}
+#boxes .box3 {
+  float:left;
+  margin-left:150px;
+}
+#boxes .box4{
+  float:left;
+  margin-left:160px;
+}
+#boxes img{
+  width:100%
+}
+#boxes .container h2{
+  margin-left:500px;
+}
+#tabs{
+  float:left;
+}
+#tabs .tab {
+  overflow: hidden;
+  border: 1px solid red;
+  background-color: #f1f1f1;
+}
+#tabs .tab .buttoncontainer button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size:30px;
+  width:330px;
+  height:70px;
+}
+#tabs .tab .buttoncontainer button:hover {
+  background-color: blue;
+}
+#tabs .tabcontent{
+  height:0px;
+  padding-top:0px;
+  display:none;
+  padding-left:100px;
+  margin-right:100px;
+  font-size:20px;
+}
+#tabs .tabcontent p{
+  background-color:;
+  margin-top:-20px;
+  margin-bottom:30px;
+}
+.section{
+  margin-top: 90px;
+}
+table{
+  width:95%;
+}
+table th,td{
+  border: 1px solid black;
+}
+
