@@ -54,11 +54,12 @@ margin-left:0rem
 }
 .section h2 {
   font-size: 30px;
-  color:black;
+  color:white;
+text-align:center;
 }
 .section p{
   font-size:20px;
-  color:black;
+  color:white;
   margin-left:18px;
   font-weight:bolder;
 }
